@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #928c8c;
+    }
+.heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    gap: 0px;
+}
+.box:hover{
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+.box
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+ border-radius: 100px;
+
+
+}
+.score-board{
+    display: flex;
+    gap: 40px;
+    margin: 20px;
+    padding: 50px;
+    align-items: center;
+    justify-content: center; 
+   
+}
+.you{
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+
+
+}
+.comp{
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    
+
+}.text{
+    display: flex;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    color: #7e2323;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+/* Add a white background */
+    border-radius: 10px; /* Add a subtle border radius */
+    box-shadow: 0 0 10px rgba(119, 79, 79, 0.1); /* Add a soft box shadow */
+    
+}
+
